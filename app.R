@@ -12,6 +12,7 @@ StarData.f$Spectral.Class <- NULL
 
 ui <- fluidPage(
   titlePanel('StarData Analysis'),
+  titlePanel(tags$a(href="https://github.com/iMay033/Case-Study-3", "GitHub")),
   setBackgroundImage(
     src="https://cdn.discordapp.com/attachments/218195835094040589/737124944575725568/1219598.png"
   ),
