@@ -1,11 +1,14 @@
-StarData.f = StarData
-StarData.f$Star.color <- NULL
-StarData.f$Spectral.Class <- NULL
+StarData <- read.csv("StarData.csv")
+
 library(shiny)
 library(ggplot2)
 library(plyr)
 library(party)
 library(shinyWidgets)
+
+StarData.f = StarData
+StarData.f$Star.color <- NULL
+StarData.f$Spectral.Class <- NULL
 
 ui <- fluidPage(
   titlePanel('StarData Analysis'),
